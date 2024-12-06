@@ -1,0 +1,50 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>Gym_Tracker</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Pages\Exercise\**" />
+    <Content Remove="Pages\Exercise\**" />     
+    <EmbeddedResource Remove="Pages\Exercise\**" />
+    <None Remove="Pages\Exercise\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Pages\Membership.cshtml.cs" />
+    <Compile Remove="Pages\searchResults.cshtml.cs" />
+    <Compile Remove="Pages\UserData.cshtml.cs" />
+    <Compile Remove="Pages\Workouts.cshtml.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="Pages\Membership.cshtml" />
+    <Content Remove="Pages\searchResults.cshtml" />
+    <Content Remove="Pages\UserData.cshtml" />
+    <Content Remove="Pages\Workouts.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EntityFramework" Version="6.5.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="8.0.10" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.11" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="9.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Identity.Core" Version="9.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Gym-TrackerAPI\Gym-TrackerAPI.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Entities\" />
+  </ItemGroup>
+
+
+</Project>

@@ -1,0 +1,19 @@
+﻿@page
+@model Gym_Tracker.Pages.searchResultsModel
+@{
+    var userId = HttpContext.Request.Query["user"];
+    var userEmail = HttpContext.Request.Query["email"];
+}   
+   
+
+    
+}
+<h1>Search Results</h1>
+@Html.Raw(Model.JsonData)
+<div id="UserName" style="visibility: visible;">
+
+</div>
+
+<script type="module">
+    displaySearchResults(@userId, @userEmail);
+</script>

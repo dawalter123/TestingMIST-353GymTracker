@@ -1,0 +1,17 @@
+﻿   \
+
+    <h2>Membership Results</h2>
+
+    @if (Model.MembershipList != null && Model.MembershipList.Any())
+    {
+        <ul>
+            @foreach (var user in Model.MembershipList)
+            {
+                <li>@user.ID - @user.MembershipLevel - @user.MembershipMonthPrice</li>
+            }
+        </ul>
+    }
+    else
+    {
+        <p>No results found.</p>
+    }

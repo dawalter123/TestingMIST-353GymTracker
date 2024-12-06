@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35219.272
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gym-Tracker", "Gym-Tracker.csproj", "{54C9D822-7B6A-47DE-9FB0-92B039510236}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gym-TrackerDWAPI", "..\Gym-TrackerDWAPI\Gym-TrackerDWAPI.csproj", "{BF7E9FF2-DB71-4396-B671-23B08D7114EC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{54C9D822-7B6A-47DE-9FB0-92B039510236}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54C9D822-7B6A-47DE-9FB0-92B039510236}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54C9D822-7B6A-47DE-9FB0-92B039510236}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54C9D822-7B6A-47DE-9FB0-92B039510236}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF7E9FF2-DB71-4396-B671-23B08D7114EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF7E9FF2-DB71-4396-B671-23B08D7114EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF7E9FF2-DB71-4396-B671-23B08D7114EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF7E9FF2-DB71-4396-B671-23B08D7114EC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AB7E9B28-0565-4073-B894-760B5FD909AC}
+	EndGlobalSection
+EndGlobal
